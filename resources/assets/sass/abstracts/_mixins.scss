@@ -5,3 +5,7 @@
         clear: both;
     }
 }
+
+@mixin elevated {
+    box-shadow: 0rem .2rem .5rem rgba(black,.5);
+}

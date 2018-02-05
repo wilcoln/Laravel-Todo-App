@@ -10004,12 +10004,26 @@ a.text-dark:focus {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 72.5%;
 }
 
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.card {
+  -webkit-box-shadow: 0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+  -webkit-box-shadow: 0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+.card .delete-icon {
+  visibility: hidden;
 }
 
 @-webkit-keyframes moveInLeft {
@@ -10132,14 +10146,19 @@ body {
 }
 
 nav.navbar {
+  background: -webkit-gradient(linear, left top, right top, from(purple), color-stop(#007bff), to(#91c5fd));
+  background: linear-gradient(to right, purple, #007bff, #91c5fd);
   min-height: 5rem;
+  -webkit-box-shadow: 0rem 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0rem 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 footer {
-  margin-top: 30px;
-  padding: 20px;
-  color: #fff;
-  background: #343a40;
+  min-height: 5rem;
+  background: -webkit-gradient(linear, left top, right top, from(purple), color-stop(#007bff), to(#91c5fd));
+  background: linear-gradient(to right, purple, #007bff, #91c5fd);
+  padding-top: 1.5rem;
+  color: white;
 }
 
 input,

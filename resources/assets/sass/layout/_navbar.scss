@@ -1,3 +1,5 @@
 nav.navbar{
+    background: $gradient-primary;
     min-height: 5rem;
+    @include elevated;
 }

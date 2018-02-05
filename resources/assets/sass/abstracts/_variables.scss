@@ -1,3 +1,11 @@
 // Typography
 $font-family-sans-serif: "Raleway", sans-serif;
 $font-default-size: 1.4rem;
+
+//colors
+$color-primary: #007bff;
+$color-primary-light : #91c5fd;
+
+
+//linear gradients
+$gradient-primary: linear-gradient(to right, purple, $color-primary,$color-primary-light);
