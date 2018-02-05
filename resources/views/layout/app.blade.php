@@ -15,7 +15,7 @@
   </div>
 
   <footer  class="text-center mt-4" id="footer">
-      <p>Copyright &copy; 2017 Todolist</p>
+      <p>Copyright &copy; 2017 wilcoln</p>
   </footer>
   <script src="/js/app.js"></script>
   @yield('scripts')
